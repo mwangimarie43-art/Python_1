@@ -91,7 +91,7 @@ if m>0 or n>0:         #output Either of the numbers is greater than 0
     print("Either of the numbers is greater than 0")
 else:
     print("No number is greater than 0")
-if m>0 or n>0 or q>0:   #Either of the numbers is greater than 0
+if m>0 or n>0 or q>0:   #Either of the numbers is greater th
     print("Either of the numbers is greater than 0")
 else:
     print("No number is greater than 0")
