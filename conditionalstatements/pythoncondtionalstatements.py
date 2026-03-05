@@ -5,6 +5,29 @@ age = 20
 if age >= 18:
     print("Eligible to vote.")
 
+#check if a number is +ve or -ve
+num=int(input("Enter a number:"))
+if num>=0:
+    if num>0:
+        print("The number is ppositive")
+    else:
+        print("The number is zero")
+else:
+    print("The number is neative")
+
+#check one"s age group
+age=int(input("Enter your age:"))
+if age<=12 and age >= 0:
+    print("You are a child")
+elif age<=19 and age>=13:
+    print("You are a teenager")
+elif age<=45 and age>=20:
+    print("You are an adult")
+elif age<=120 and age>=46:
+    print("You are a senior")
+else:
+    print("enter valid ae")
+
 
 """If Else allows us to specify a block of code that will execute 
 if the condition(s) associated with an if or elif statement evaluates to False. 

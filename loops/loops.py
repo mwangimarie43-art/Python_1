@@ -71,3 +71,32 @@ for x in adj:
 for x in [0,1,2]:
    pass
 
+# Iterating Over List, Tuple, String and Dictionary Using for Loops in Python
+
+li = ["geeks", "for", "geeks"]
+for x in li:
+    print(x)
+    
+tup = ("geeks", "for", "geeks")
+for x in tup:
+    print(x)
+    
+s = "abc"
+for x in s:
+    print(x)
+    
+d = dict({'x':123, 'y':354})
+for x in d:
+    print("%s  %d" % (x, d[x]))
+    
+set1 = {10, 30, 20}
+for x in set1:
+    print(x),
+
+
+
+
+#even numbers btween 1 and 100
+for x in range(1,100):
+   if x%2==0:
+      print(x)

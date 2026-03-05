@@ -9,13 +9,13 @@ total=price*n
 print("The total is",total)
 
 # find the data type of input in python
-a="Hello world" #int
+a="Hello world"              #str    
 b=10                         #int
-c=2.4
+c=2.4                        #float  
 d=("Geeks", "for ","Geeks")  #tuple
-e=["Geeks", "for ","Geeks"]  #Array
+e=["Geeks", "for ","Geeks"]  #list
 f={"Geeks", "for ","Geeks"}  #set
-g={"Geeks": 1, "for":2}
+g={"Geeks": 1, "for":2}      #dictionary
 print(type(a))
 print(type(b))
 print(type(c))
